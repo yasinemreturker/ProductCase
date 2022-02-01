@@ -35,6 +35,7 @@ android {
 
 dependencies {
     def retrofit2_version = "2.9.0"
+    def okhttp3_version = "4.9.3"
     def dagger2_version = "2.40.5"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -53,4 +54,8 @@ dependencies {
     //Retrofit2
     implementation "com.squareup.retrofit2:retrofit:$retrofit2_version"
     implementation "com.squareup.retrofit2:converter-gson:$retrofit2_version"
+
+    //OkHttp3
+    implementation "com.squareup.okhttp3:okhttp:$okhttp3_version"
+    implementation "com.squareup.okhttp3:logging-interceptor:$okhttp3_version"
 }
