@@ -39,6 +39,7 @@ dependencies {
     def okhttp3_version = "4.9.3"
     def gson_version = "2.8.9"
     def dagger2_version = "2.40.5"
+    def glide_version = "4.12.0"
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.7.0'
@@ -54,7 +55,6 @@ dependencies {
     // LiveData
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
 
-
     //Dagger 2
     implementation "com.google.dagger:dagger:$dagger2_version"
     kapt "com.google.dagger:dagger-compiler:$dagger2_version"
@@ -69,4 +69,8 @@ dependencies {
 
     //GSON
     implementation "com.google.code.gson:gson:$gson_version"
+
+    //Glide
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
 }
