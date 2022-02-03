@@ -1,10 +1,10 @@
-package com.example.productcase.ui.dashboard
+package com.example.productcase.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.productcase.R
 
-class DashboardActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)

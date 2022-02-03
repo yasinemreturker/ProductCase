@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProductCase">
         <activity android:exported="true"
-            android:name=".ui.dashboard.DashboardActivity">
+            android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
